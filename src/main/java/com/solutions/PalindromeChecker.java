@@ -8,21 +8,21 @@ package com.solutions;
 public class PalindromeChecker {
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("maam"));	
+		System.out.println(isPalindrome("mohom"));	
+		System.out.println(isPalindrome("imid"));	
 
 	}
 
-	private static boolean isPalindrome(String string) {
-		if(string.isBlank() == false) {		// Check if input is empty or not
-			for (int i = 0; i <= string.length()/2; i++) {
-				 if(string.charAt(i) == string.charAt((string.length()-i)-1)) {
-					 return true;
-				 } else {
-					 return false;
-				 }
-			}
-		}
-		return false;
-	}
+	 private static boolean isPalindrome(String string) {
+	        if (string.isBlank()) {
+	            return false; // Check if input is empty or not
+	        }
+	        for (int i = 0; i < string.length() / 2; i++) {
+	            if (string.charAt(i) != string.charAt(string.length() - 1 - i)) {
+	                return false;
+	            }
+	        }
+	        return true;
+	    }
 
 }
