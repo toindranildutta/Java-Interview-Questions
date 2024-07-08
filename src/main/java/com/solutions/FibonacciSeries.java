@@ -11,7 +11,7 @@ import java.util.List;
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
-		//findFibonacchiSeriesResult(10);
+		findFibonacchiSeriesResult(10);
 	    System.out.println(findFibonacchiSeriesResultUsingList(10));
 	}
 
