@@ -18,13 +18,13 @@ Program to verify whether a given string is a palindrome or not. A string is a p
 Program to verify whether a given integer is a palindrome or not.
 5. Armstrong number
 Program to verify whether a given number is an Armstrong number. An Armstrong number is equal to the sum of the cubes of its digits.
+6. Avoiding deadlocks
+Program where a resource can be accessed by more than one thread, without encountering a deadlock. To avoid deadlocks, you are required to procure resources in a certain order and ensure that they are released in reverse order.
 
 
 
 #### List of Questions yet to be solved ####
 
-6. Avoiding deadlocks
-Program where a resource can be accessed by more than one thread, without encountering a deadlock. To avoid deadlocks, you are required to procure resources in a certain order and ensure that they are released in reverse order.
 7. Factorial
 Program to calculate and display the factorial of any given number.
 8. Reversing strings
