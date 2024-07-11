@@ -20,15 +20,15 @@ Program to verify whether a given integer is a palindrome or not.
 Program to verify whether a given number is an Armstrong number. An Armstrong number is equal to the sum of the cubes of its digits.
 6. Avoiding deadlocks
 Program where a resource can be accessed by more than one thread, without encountering a deadlock. To avoid deadlocks, you are required to procure resources in a certain order and ensure that they are released in reverse order.
-
-
-
-#### List of Questions yet to be solved ####
-
 7. Factorial
 Program to calculate and display the factorial of any given number.
 8. Reversing strings
 Program to reverse the order of characters in any given string.
+
+#### List of Questions yet to be solved ####
+
+
+
 9. Removing repeated elements from an array
 Program to identify and remove all repeated elements from an array. Arrays could be of various types like integer, character or string.
 10. Printing patterns
