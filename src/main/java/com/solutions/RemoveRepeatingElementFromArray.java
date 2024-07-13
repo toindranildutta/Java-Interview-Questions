@@ -13,18 +13,37 @@ import java.util.Set;
 public class RemoveRepeatingElementFromArray {
 
 	public static void main(String[] args) {
-		Integer[] listOfArray = {1,2,3,5,2,1};
-		removeRepeatingElements(listOfArray);
+//		Integer[] listOfArray = {1,2,3,5,2,1};
+//		String[] listOfArray = {"iam", "youare", "iam", "sheis" };
+		Character[] listOfArray = { 'a', 'b', 'b', 'c' };
+		removeRepeatingElements(listOfArray);	// Using method Overloading
 
 	}
-
-	private static  void removeRepeatingElements(Integer[] listOfArr) {
+	// For Integer
+	private static void removeRepeatingElements(Integer[] listOfArr) {
 		HashSet<Integer> uniqueArr = new HashSet<>();
-		for(int i : listOfArr) {
+		for (int i : listOfArr) {
 			uniqueArr.add(listOfArr[i]);
 		}
 		System.out.println(uniqueArr);
-		
-	}
 
+	}
+	// For String
+	private static void removeRepeatingElements(String[] listOfArr) {
+		HashSet<String> uniqueArr = new HashSet<>();
+		for (int i = 0; i < listOfArr.length; i++) {
+			uniqueArr.add(listOfArr[i]);
+		}
+		System.out.println(uniqueArr);
+
+	}
+	// For Character
+	private static void removeRepeatingElements(Character[] listOfArr) {
+		HashSet<Character> uniqueArr = new HashSet<>();
+		for(int i=0; i< listOfArr.length; i++) {
+			uniqueArr.add(listOfArr[i]);
+		}
+		System.out.println(uniqueArr);
+
+	}
 }
