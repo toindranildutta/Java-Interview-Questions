@@ -26,13 +26,12 @@ Program to calculate and display the factorial of any given number.
 Program to reverse the order of characters in any given string.
 9. Removing repeated elements from an array
 Program to identify and remove all repeated elements from an array. Arrays could be of various types like integer, character or string.
+10. Printing patterns
+Program to print a given pattern composed of ASCII characters. The solution is required to employ an effective algorithm, as opposed to directly printing the pattern as it is.
 
 #### List of Questions yet to be solved ####
 
 
-
-9. Removing repeated elements from an array
-Program to identify and remove all repeated elements from an array. Arrays could be of various types like integer, character or string.
 10. Printing patterns
 Program to print a given pattern composed of ASCII characters. The solution is required to employ an effective algorithm, as opposed to directly printing the pattern as it is.
 11. Printing repetitive characters in a string
